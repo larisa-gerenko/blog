@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 87px;
+  height: 22px;
+}
+.logo {
+}
+.text {
+  color: red;
+  width: 87px;
+  height: 22px;
+}
