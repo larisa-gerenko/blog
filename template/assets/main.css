@@ -4,13 +4,40 @@ body {
   padding: 0;
 }
 .header {
-  width: 87px;
-  height: 22px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 132px;
+  width: 1180px;
+  height: 40px;
 }
 .logo {
+  position: absolute;
 }
 .text {
-  color: red;
+  position: absolute;
+  top: 9px;
+  left: 53px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
   width: 87px;
   height: 22px;
+}
+.search img {
+  position: absolute;
+  right: 15px;
+  top: 9px;
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 500px) {
+  .header {
+    margin-left: 5px;
+  }
+  .search img {
+    right: 1005px;
+  }
 }
