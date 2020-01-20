@@ -13,12 +13,11 @@ body {
 .logo {
   position: absolute;
 }
-.text {
+.name {
   position: absolute;
   top: 9px;
   left: 53px;
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
   font-size: 16px;
   font-weight: 600;
   color: #000000;
@@ -40,4 +39,24 @@ body {
   .search img {
     right: 1005px;
   }
+}
+
+.first-card {
+  width: 380px;
+  height: 482px;
+  margin-left: 130px;
+  margin-top: 34px;
+}
+.topic {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  color: #0a0a0a;
+  font-weight: bold;
+  margin-top: 17px;
+}
+.text {
+  margin-top: 8px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
 }
