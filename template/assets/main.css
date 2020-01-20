@@ -41,11 +41,20 @@ body {
   }
 }
 
-.first-card {
-  width: 380px;
-  height: 482px;
-  margin-left: 130px;
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 30%;
   margin-top: 34px;
+}
+.card img {
+  width: 100%;
 }
 .topic {
   font-family: "Source Sans Pro", sans-serif;
